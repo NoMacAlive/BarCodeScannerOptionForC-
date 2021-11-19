@@ -14,17 +14,39 @@ namespace BarcodePoC
 	{
 		static void Main( string[ ] args )
 		{
-			string testFileName = FileName.GasBillIMG.GetDescription( );
-			//
-			// SpireScan( testFileName );
-			//
-			// BarCodeXpressScan( testFileName );
-
-			IronBarCodeScan( testFileName );
+			string testFileName = FileName.GasBillPDF.GetDescription( );
+			try
+			{
+				//
+				// SpireScan( testFileName );
+				//
+			}
+			catch ( Exception e ) { }
 			
-			// AspriseOCRScan( testFileName );
-			//
-			AsposeScan( testFileName );
+			try
+			{
+				BarCodeXpressScan( testFileName );
+			}
+			catch ( Exception e ) { }
+			
+			try
+			{
+				IronBarCodeScan( testFileName );
+			}
+			catch ( Exception e ) { }
+
+			try
+			{
+				// AspriseOCRScan( testFileName );
+			}
+			catch ( Exception e ) { }
+
+			try
+			{
+				AsposeScan( testFileName );
+			}
+			catch ( Exception e ) { }
+			
 		}
 
 		private static void AsposeScan( string testFileName )
