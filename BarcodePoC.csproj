@@ -26,10 +26,10 @@
 	  <None Update="Resources\pdfs\cameron.pdf">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="Resources\pdfs\Electricity Bill.pdf">
+	  <None Update="Resources\pdfs\ElectricityBill.pdf">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	  <None Update="Resources\pdfs\Gas Bill.pdf">
+	  <None Update="Resources\pdfs\GasBill.pdf">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	  <None Update="Resources\pdfs\newPlymouth.pdf">

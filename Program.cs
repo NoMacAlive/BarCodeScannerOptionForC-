@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
-using System.Reflection;
 using Newtonsoft.Json;
 using Accusoft.BarcodeXpressSdk;
 using Aspose.BarCode.BarCodeRecognition;
@@ -14,39 +13,50 @@ namespace BarcodePoC
 	{
 		static void Main( string[ ] args )
 		{
-			string testFileName = FileName.GasBillPDF.GetDescription( );
+			foreach ( FileName fileName in Enum.GetValues( typeof( FileName ) ) )
+			{
+				Console.WriteLine( fileName.GetDescription( ) + " Results:" );
+				Console.WriteLine( "**************************************" );
+				ScanTheProvidedFile( fileName );
+			}
+		}
+
+		private static void ScanTheProvidedFile( FileName fileName )
+		{
+			// // string testFileName = "test-barcodes.bmp";
+			string testFileName = fileName.GetDescription( );
 			try
 			{
-				//
-				// SpireScan( testFileName );
-				//
+				SpireScan( testFileName );
 			}
-			catch ( Exception e ) { }
-			
+			catch ( Exception e )
+			{
+				Console.WriteLine( e.Message );
+			}
+
 			try
 			{
 				BarCodeXpressScan( testFileName );
 			}
-			catch ( Exception e ) { }
-			
+			catch ( Exception e ) { Console.WriteLine( e.Message ); }
+
 			try
 			{
 				IronBarCodeScan( testFileName );
 			}
-			catch ( Exception e ) { }
+			catch ( Exception e ) { Console.WriteLine( e.Message ); }
 
 			try
 			{
-				// AspriseOCRScan( testFileName );
+				AspriseOCRScan( testFileName );
 			}
-			catch ( Exception e ) { }
+			catch ( Exception e ) { Console.WriteLine( e.Message ); }
 
 			try
 			{
 				AsposeScan( testFileName );
 			}
-			catch ( Exception e ) { }
-			
+			catch ( Exception e ) { Console.WriteLine( e.Message ); }
 		}
 
 		private static void AsposeScan( string testFileName )
@@ -92,7 +102,7 @@ namespace BarcodePoC
 			///
 			/// This is the IronBarcode barCodeScanner
 			/// 
-			BarcodeResult Result = BarcodeReader.QuicklyReadOneBarcode( testFileName );
+			BarcodeResult Result = BarcodeReader.QuicklyReadOneBarcode( testFileName, BarcodeEncoding.All, true );
 			Console.WriteLine( "IronBarcode Results:" );
 			Console.WriteLine( JsonConvert.SerializeObject( Result, Formatting.Indented ) );
 			Console.WriteLine( "======================" );
@@ -142,34 +152,31 @@ namespace BarcodePoC
 
 	public enum FileName
 	{
-		[Description("Resources/pdfs/cameron.pdf")]
+		[Description( "Resources/pdfs/cameron.pdf" )]
 		CameronPDF = 0,
-		
-		[Description("Resources/pdfs/Electricity Bill.pdf")]
+
+		[Description( "Resources/pdfs/ElectricityBill.pdf" )]
 		ElectricityBillPDF,
-		
-		[Description("Resources/pdfs/Gas Bill.pdf")]
+
+		[Description( "Resources/pdfs/GasBill.pdf" )]
 		GasBillPDF,
-		
-		[Description("Resources/pdfs/newPlymouth.pdf")]
+
+		[Description( "Resources/pdfs/newPlymouth.pdf" )]
 		NewPlymouthPDF,
-		
-		[Description("Resources/images/cameron_page-0001.jpg")]
+
+		[Description( "Resources/images/cameron_page-0001.jpg" )]
 		CameronIMG1,
-		
-		[Description("Resources/images/cameron_page-0002.jpg")]
+
+		[Description( "Resources/images/cameron_page-0002.jpg" )]
 		CameronIMG2,
-		
-		[Description("Resources/images/ElectricityBill.jpg")]
+
+		[Description( "Resources/images/ElectricityBill.jpg" )]
 		ElectricityBillIMG,
-		
-		[Description("Resources/images/GasBill.jpg")]
+
+		[Description( "Resources/images/GasBill.jpg" )]
 		GasBillIMG,
-		
-		[Description("Resources/images/newPlymouth.jpg")]
+
+		[Description( "Resources/images/newPlymouth.jpg" )]
 		NewPlymouthIMG
 	}
-	
-	
-	
 }
