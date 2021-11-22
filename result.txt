@@ -6,20 +6,35 @@ C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj : warning NU1701
 C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj : warning NU1701: Package 'asprise-ocr-dll-bundle-32 15.3.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.
 C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj : warning NU1701: Package 'asprise-ocr-dll-bundle-64 15.3.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.
 C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj : warning NU1701: Package 'FreeSpire.Barcode 2.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.
-C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\Program.cs(33,22): warning CS0168: The variable 'e' is declared but never used [C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj]
-C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\Program.cs(39,22): warning CS0168: The variable 'e' is declared but never used [C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj]
-C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\Program.cs(45,22): warning CS0168: The variable 'e' is declared but never used [C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj]
-C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\Program.cs(51,22): warning CS0168: The variable 'e' is declared but never used [C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj]
-C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\Program.cs(57,22): warning CS0168: The variable 'e' is declared but never used [C:\Users\Guangya.Zhu\RiderProjects\BarcodePoC\BarcodePoC.csproj]
 Resources/pdfs/cameron.pdf Results:
 **************************************
+spire:Parameter is not valid.
+barcode XpressParameter is not valid.
 Attempting to load Windows library 'C:\Users\Guangya.Zhu\AppData\Local\Temp\IronBarCode\x64\pdfium.vanilla.dll'
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
+AspriseOCRNo data is available for encoding 1252. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Aspose:Parameter is not valid.
 Resources/pdfs/ElectricityBill.pdf Results:
 **************************************
+spire:Parameter is not valid.
+barcode XpressParameter is not valid.
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
+AspriseOCRNo data is available for encoding 1252. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Aspose:Parameter is not valid.
 Resources/pdfs/GasBill.pdf Results:
 **************************************
+spire:Parameter is not valid.
+barcode XpressParameter is not valid.
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
+AspriseOCRNo data is available for encoding 1252. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Aspose:Parameter is not valid.
 Resources/pdfs/newPlymouth.pdf Results:
 **************************************
+spire:Parameter is not valid.
+barcode XpressParameter is not valid.
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
+AspriseOCRNo data is available for encoding 1252. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Aspose:Parameter is not valid.
 Resources/images/cameron_page-0001.jpg Results:
 **************************************
 Spire Barcode Result:
@@ -116,6 +131,8 @@ BarCode Xpress Results:
   }
 ]
 ======================
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
+AspriseOCRNo data is available for encoding 1252. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
 Aspose Results:
 Type: Code128
 CodeText: 45330187856700000067612*********Recognized by Aspose Barcode Reader evaluation version. Only Code39Standard can be recognized without restrictions. Please buy license to use Aspose Barcode Reader without watermarks.
@@ -216,8 +233,9 @@ BarCode Xpress Results:
   }
 ]
 ======================
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
 AspriseOCR Results:
-"CASEY.V|C.GOV.AU\nmam: m. nai\nEverbest G And I Pty Ltd\nCl- Cameron (Dandenong)\nPO Box 4222\nDANDENONG SOUTH VIC 3164 1 . Account Ref No: 00958615\nOVERDUE\nProperly: Vacant 20 Commercial Drive LYNBROOK Vic 3975\nLot 107 PS 5374945 DUE IMMEDIATELY\n$ 0\n`All Outstanding arrears must be paid\nImmediately to avotd further interest\nNET ANNUAL charges (currently set at 10% PAL\nVALUE $100,245\nRates & Charges calculation Amount (D PAYMENT Bv INSTALMENTS\n1st instalment 2- 30-Nov-2017\ni 2-Oct-2017 $1,722.25\n1 31-72231 3. 28-Feb-2018\n` $112225\n: 713.2?an 2%: 4. 31-May-2018\nE due date. $1,722.25\n0R\nr PAYMENT lN FULL\nRATE CAPPING\nCDUncll has complIed wan the Victorian Government's rate cap of 2 0% The Cap applies to the average Increase\nol rates and charges The rates and charges for your properly may have Increased or decreased by a dilferent\npercentage amount forthe followIng reasons\nI) The valuation oi your property relative to the valuation oi ciner propemes m the municipal district\nn) The application or any dlflereniial rate by Council\nin) The inclusion of other rates and charges Iiol covered by the VIolOrIaIi Government's rate can 0R\n@ PAYMENT BY DIRECT DEBIT\nTo update your contact details. notify us at (9 monthly payments)\nwww'casey'wc'gov'au/uPdam'my-deuus See over for further Information\nExisting arrangements wtll continue from\nif you are eligible for a pension concession and the discount is not showing 23 Sepl2017~ A Payment schedule will\n. . . , i\nabove please contact Customer Sewice to organise a rebate application. be {omarded separa`e y\nTRY BPAV PAYMENTS THIS YEAR. 0R SEE OVER FOR OTHER PAYMENT METHODS\nBiller Code: 5995 l I\nRef: 00958615 m -----\nam- lhls payment via Internal at cncna banking\nam w - View and pay this bill ustng inlemel banklng $\nam View Registration Nat: 0095561 5\nRATEPAVER: Everbest G And | Fly le\n. _ _ t _ _ WI\nl\nPROPER": Vacant 20 Commercial Drive LYNBROOK VIC 3975 Hm, "mum"\nPROPERTY ID: 95331 `71 179 958615 85\nPRESCRIBED DATE OF VALUATION OPERATIVE DATE\n(Valuation as at) 1 JAN 2016 (Eflecuve from) 1 JUL 2016\nCAPITAL IMPROVED VALUE\n(Total Property Value) 31.405300\nSITE VALUE\n(Land Value) $560,000\nFire Service Levy Industrial Fixed 216.00 $216000\nFire Service Levy Industrial Variable (.001574x CIV) $2,211.47\nGeneral Rate @$0.00317551 x CIV $4,461.59\nCCIVIlI/D, O\n((0 ¯ 08 'I7\nAUSTRALIAN VALUATION PROPERTY CLASSIFICATION CODE:\n310 - General Purpose Factory\n' Due by 15-Feb-2018 `\n$638906\nINSTALMENT AMOUNT\nDUE BY 2/10/11\n: Date / /\n:IA'A\nTOTAL AMOUNT\nDUE BY 1 5102\" 8\n$6,889.06\n[[I2/5: 00000020221901]]\n[[CODE-128: 08317900068890600000000009586150]]\n"
+"CASEY.V|C.GOV.AU\nmam: m. nai\nEverbest G And I Pty Ltd\nCl- Cameron (Dandenong)\nPO Box 4222\nDANDENONG SOUTH VIC 3164 1 . Account Ref No: 00958615\nOVERDUE\nProperly: Vacant 20 Commercial Drive LYNBROOK Vic 3975\nLot 107 PS 5374945 DUE IMMEDIATELY\n$ 0\n`All Outstanding arrears must be paid\nImmediately to avotd further interest\nNET ANNUAL charges (currently set at 10% PAL\nVALUE $100,245\nRates & Charges calculation Amount (D PAYMENT Bv INSTALMENTS\n1st instalment 2- 30-Nov-2017\ni 2-Oct-2017 $1,722.25\n1 31-72231 3. 28-Feb-2018\n` $112225\n: 713.2?an 2%: 4. 31-May-2018\nE due date. $1,722.25\n0R\nr PAYMENT lN FULL\nRATE CAPPING\nCDUncll has complIed wan the Victorian Government's rate cap of 2 0% The Cap applies to the average Increase\nol rates and charges The rates and charges for your properly may have Increased or decreased by a dilferent\npercentage amount forthe followIng reasons\nI) The valuation oi your property relative to the valuation oi ciner propemes m the municipal district\nn) The application or any dlflereniial rate by Council\nin) The inclusion of other rates and charges Iiol covered by the VIolOrIaIi Government's rate can 0R\n@ PAYMENT BY DIRECT DEBIT\nTo update your contact details. notify us at (9 monthly payments)\nwww'casey'wc'gov'au/uPdam'my-deuus See over for further Information\nExisting arrangements wtll continue from\nif you are eligible for a pension concession and the discount is not showing 23 Sepl2017~ A Payment schedule will\n. . . , i\nabove please contact Customer Sewice to organise a rebate application. be {omarded separa`e y\nTRY BPAV PAYMENTS THIS YEAR. 0R SEE OVER FOR OTHER PAYMENT METHODS\nBiller Code: 5995 l I\nRef: 00958615 m -----\nam- lhls payment via Internal at cncna banking\nam w - View and pay this bill ustng inlemel banklng $\nam View Registration Nat: 0095561 5\nRATEPAVER: Everbest G And | Fly le\n. _ _ t _ _ WI\nl\nPROPER": Vacant 20 Commercial Drive LYNBROOK VIC 3975 Hm, "mum"\nPROPERTY ID: 95331 `71 179 958615 85\nPRESCRIBED DATE OF VALUATION OPERATIVE DATE\n(Valuation as at) 1 JAN 2016 (Eflecuve from) 1 JUL 2016\nCAPITAL IMPROVED VALUE\n(Total Property Value) 31.405300\nSITE VALUE\n(Land Value) $560,000\nFire Service Levy Industrial Fixed 216.00 $216000\nFire Service Levy Industrial Variable (.001574x CIV) $2,211.47\nGeneral Rate @$0.00317551 x CIV $4,461.59\nCCIVIlI/D, O\n((0 ï¿½ 08 'I7\nAUSTRALIAN VALUATION PROPERTY CLASSIFICATION CODE:\n310 - General Purpose Factory\n' Due by 15-Feb-2018 `\n$638906\nINSTALMENT AMOUNT\nDUE BY 2/10/11\n: Date / /\n:IA'A\nTOTAL AMOUNT\nDUE BY 1 5102\" 8\n$6,889.06\n[[I2/5: 00000020221901]]\n[[CODE-128: 08317900068890600000000009586150]]\n"
 ======================
 Aspose Results:
 Type: AustraliaPost
@@ -325,6 +343,7 @@ BarCode Xpress Results:
   }
 ]
 ======================
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
 AspriseOCR Results:
 "dodo\nAccount Number:\nDodo Power at Gas Payment Options\nDirect Debit\nSign up to direct debit via my.dodo.com\nor call 130000\nDnline\nPay your account online with\nmy.dodo.com.\nPay in person via AusPost\nTake this invoice to any Post Office to pay in\nperson.\nPay By Phone on 13dodo (13 36 36)\nCall us to pay by credit card *.\na;\nR\nQ?\nM2 Energy Ply LtdABN15123155840tr3dmgas Dodo Powers Gas\n1 1 108229\nQ\nNMI: 61028691466 Page 5 of 5\nTelephone a Internet Banking VBPAVr\nMake this payment via your online banking\nor phone banking.\nBiller Code: 126326\nRef: 8111082296\nCentrepay\nEligible residential customers can pay by Centrepay.\n(2\nJ\nBy Mail (Cheque)\nPost your payment to:\nDodo Power StGfiS. P.O Box 631 Collins St West\nVIC 8007\n*American Express] Diner's club Surcharge is 2.89%\nof the tmnsaction.\n) POSTb Ilpay\nDate paid\n`) POSTb pay`\n*3343 3837 0000000011108229 03\nAmount paid\nDodo Power a Gas Pty Ltd Payment in Person\nPlease present this account intact with payment\nat any Austmlia Post outlet\nPay in person at any Australia Post outlet\nPaid at Branch\nDue Date:\n12/08/2021\nPayment Due: s 167.47\n><\n$\n/ /\n[[CODE-128: *3348383700000000111082290300016747]]\n"
 ======================
@@ -430,8 +449,9 @@ BarCode Xpress Results:
   }
 ]
 ======================
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
 AspriseOCR Results:
-"l\nI 'I 'I M2 Energy Pty Ltd ABN 15123 155 840 trading as Dodo Power & Gas\nAccount Number: 11108230 MIRN: 53214200112\nPage 5 of 5\nDodo Power & Gas Payment Options\nDirect Debit I : Telephone & Internet Banking -3PAYr _\n_ . _ _ Make this payment Via your online banking\n, Sign up to direct debit Via my.dodo.com .\nor phone banking.\n' or call 13DODO\nBiller Code: 126326\nOnline Ref: 8111082304\nS Pay your account online with\n.l-l-\nmy.dodo.com. 0 Centrepay\n` ) Eligible residential customers can pay by Centrepay.\nPay in person via AusPost\nR Take this invoice to any Post Office to pay in\nperson' I By Mail (Cheque)\nPost your payment to:\n Pay By Phone on 13dødø (13 36 36) Dodo Power & Gas. P.O Box 631 Collins St West\nCall us to pay by credit card *. VIC 8007\n*American Express / Diner's Club Surcharge is 2.89%\nof the transaction.\n_______i Pay in person at any Australia Post outlet\nDate paid Amount paid Paid at Branch\nDodo Power & Gas Pty Ltd Payment in Person Due Date. 23/07/2021\ni Please present this account intact with payment\nat any Australia Post outlet\nPayment Due: $ 114.19\n*3348 3837 0000000011108230 36\nH\nLa\n(1\nL4\n\"\"l\ni...il\nF1\nLJ\n71\nLJ\n><\nA\n'1\nf:\nmm\n$\n/ /\nA\n'1\nf:\niY-fl\"\n[[CODE-128: *3348383700000000111082303600011419]]\n"
+"l\nI 'I 'I M2 Energy Pty Ltd ABN 15123 155 840 trading as Dodo Power & Gas\nAccount Number: 11108230 MIRN: 53214200112\nPage 5 of 5\nDodo Power & Gas Payment Options\nDirect Debit I : Telephone & Internet Banking -3PAYr _\n_ . _ _ Make this payment Via your online banking\n, Sign up to direct debit Via my.dodo.com .\nor phone banking.\n' or call 13DODO\nBiller Code: 126326\nOnline Ref: 8111082304\nS Pay your account online with\n.l-l-\nmy.dodo.com. 0 Centrepay\n` ) Eligible residential customers can pay by Centrepay.\nPay in person via AusPost\nR Take this invoice to any Post Office to pay in\nperson' I By Mail (Cheque)\nPost your payment to:\n Pay By Phone on 13dï¿½dï¿½ (13 36 36) Dodo Power & Gas. P.O Box 631 Collins St West\nCall us to pay by credit card *. VIC 8007\n*American Express / Diner's Club Surcharge is 2.89%\nof the transaction.\n_______i Pay in person at any Australia Post outlet\nDate paid Amount paid Paid at Branch\nDodo Power & Gas Pty Ltd Payment in Person Due Date. 23/07/2021\ni Please present this account intact with payment\nat any Australia Post outlet\nPayment Due: $ 114.19\n*3348 3837 0000000011108230 36\nH\nLa\n(1\nL4\n\"\"l\ni...il\nF1\nLJ\n71\nLJ\n><\nA\n'1\nf:\nmm\n$\n/ /\nA\n'1\nf:\niY-fl\"\n[[CODE-128: *3348383700000000111082303600011419]]\n"
 ======================
 Aspose Results:
 Type: Code128
@@ -564,8 +584,9 @@ BarCode Xpress Results:
   }
 ]
 ======================
+Iron BarcodeIronBarCode must be licensed for barcode scanning outside of the Visual Studio development environment.  https://ironsoftware.com/csharp/barcode/licensing/  or email ordersupport@ironsoftware.com
 AspriseOCR Results:
-"I...\n: nAIM` A KIN\nTA I/A. .\n/›`\nE\nN\nm\nM\nE\nE: __z.Ea,3._5.,Es‚sgazfias‚ia‚5E5:xii;is;eas55%.?5.3.x:aezsszfiiss‚s‚s‚\n$.99\na"\nPk\np\nA\nN.\n[[CODE-39: 30633]]\n"
+"I...\n: nAIM` A KIN\nTA I/A. .\n/ï¿½`\nE\nN\nm\nM\nE\nE: __z.Ea,3._5.,Esï¿½sgazfiasï¿½iaï¿½5E5:xii;is;eas55%.?5.3.x:aezsszfiissï¿½sï¿½sï¿½\n$.99\na"\nPk\np\nA\nN.\n[[CODE-39: 30633]]\n"
 ======================
 Aspose Results:
 Type: Code39Standard

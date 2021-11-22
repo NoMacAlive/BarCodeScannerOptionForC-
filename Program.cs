@@ -13,11 +13,18 @@ namespace BarcodePoC
 	{
 		static void Main( string[ ] args )
 		{
+			ScanEveryFileAvailable( );
+			// IronBarCodeScan( FileName.NewPlymouthPDF.GetDescription(  ) );
+		}
+
+		private static void ScanEveryFileAvailable( )
+		{
 			foreach ( FileName fileName in Enum.GetValues( typeof( FileName ) ) )
 			{
 				Console.WriteLine( fileName.GetDescription( ) + " Results:" );
 				Console.WriteLine( "**************************************" );
-				ScanTheProvidedFile( fileName );
+				// ScanTheProvidedFile( fileName );
+				IronBarCodeScan( fileName.GetDescription(  ) );
 			}
 		}
 
@@ -31,32 +38,44 @@ namespace BarcodePoC
 			}
 			catch ( Exception e )
 			{
-				Console.WriteLine( e.Message );
+				Console.WriteLine( "spire:" + e.Message );
 			}
 
 			try
 			{
 				BarCodeXpressScan( testFileName );
 			}
-			catch ( Exception e ) { Console.WriteLine( e.Message ); }
+			catch ( Exception e )
+			{
+				Console.WriteLine( "barcode Xpress" + e.Message );
+			}
 
 			try
 			{
 				IronBarCodeScan( testFileName );
 			}
-			catch ( Exception e ) { Console.WriteLine( e.Message ); }
+			catch ( Exception e )
+			{
+				Console.WriteLine( "Iron Barcode" + e.Message );
+			}
 
 			try
 			{
 				AspriseOCRScan( testFileName );
 			}
-			catch ( Exception e ) { Console.WriteLine( e.Message ); }
+			catch ( Exception e )
+			{
+				Console.WriteLine( "AspriseOCR" + e.Message );
+			}
 
 			try
 			{
 				AsposeScan( testFileName );
 			}
-			catch ( Exception e ) { Console.WriteLine( e.Message ); }
+			catch ( Exception e )
+			{
+				Console.WriteLine( "Aspose:" + e.Message );
+			}
 		}
 
 		private static void AsposeScan( string testFileName )
@@ -89,7 +108,7 @@ namespace BarcodePoC
 			AspriseOCR ocr = new AspriseOCR( );
 			ocr.StartEngine( "eng", AspriseOCR.SPEED_FASTEST );
 
-			string s = ocr.Recognize( testFileName, -1, -1, -1, -1, -1, AspriseOCR.RECOGNIZE_TYPE_ALL, AspriseOCR.OUTPUT_FORMAT_PLAINTEXT );
+			string s = ocr.Recognize( testFileName, -1, -1, -1, -1, -1, AspriseOCR.RECOGNIZE_TYPE_BARCODE, AspriseOCR.OUTPUT_FORMAT_PLAINTEXT );
 			Console.WriteLine( "AspriseOCR Results:" );
 			Console.WriteLine( JsonConvert.SerializeObject( s, Formatting.Indented ) );
 			Console.WriteLine( "======================" );
